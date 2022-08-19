@@ -33,3 +33,9 @@ output = Decrypt(output,False); #Decryption.#
 print(output);
 
 print("----------------------------\n============================\n----------------------------");
+
+EncodingDictChange(DEFAULTDICT); #DefaultDict is a constant containting the Defualt Dictionary. This line of code is changing the Encoding and Decodiong Dictionary to the default.#
+output = Encrypt("hello",False); #Encryption.#
+print(output);
+output = Decrypt(output,False); #Decryption.#
+print(output);

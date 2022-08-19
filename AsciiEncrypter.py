@@ -22,7 +22,7 @@ def Encrypt(txt: any , output: bool = False, Dictionary = None) -> str:
     txt = str(txt).replace(" " ,"_");
     allowed = set(string.ascii_letters + string.digits + "!\"£$%^&*()-+=}][{#~@':;/?.><,/?\\|  _\n\t")
     if set(txt) <= allowed:
-        for orgchar,newchar in encodedict.items():
+        for orgchar,newchar in Dictionary.items():
             txt = txt.replace(orgchar,newchar);
         if output:
             print(f"Outputted: {txt}");
@@ -42,7 +42,7 @@ def Decrypt(txt: any, output: bool = False, Dictionary = None) -> str:
     if output:
         print(f"Decrypting: {txt}");
     txt = txt.replace("_"," ");
-    for newchar ,orgchar in encodedict.items():
+    for newchar ,orgchar in Dictionary.items():
         txt = txt.replace(orgchar ,newchar);
     if output:
         print(f"Outputted: {txt}")
