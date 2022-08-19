@@ -1,0 +1,10 @@
+v1.00
+======
+Basic Encryption and Decryption from a GUI window!
+
+v1.01
+======
+Importation functions and usage has been introduced.
+The orginal array based Encryption and Decryption has been replaced with Dictionary based Encryption and Decryption.
+(Yeah, I know. It should of started like that...
+I'm bad at coding. Leave it.)
