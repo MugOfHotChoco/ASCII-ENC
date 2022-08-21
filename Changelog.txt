@@ -1,10 +1,15 @@
-v1.00
-======
+v1.00.00 - The Creation.
+=========================
 Basic Encryption and Decryption from a GUI window!
 
-v1.01
-======
+v1.01.00 - The Importation Update.
+===================================
 Importation functions and usage has been introduced.
 The orginal array based Encryption and Decryption has been replaced with Dictionary based Encryption and Decryption.
 (Yeah, I know. It should of started like that...
 I'm bad at coding. Leave it.)
+
+v1.01.01
+--------
+Minor update.
+Made the EncodingDictChange() more robust and made it return True on a succesful change and False on a unsucceful change.
